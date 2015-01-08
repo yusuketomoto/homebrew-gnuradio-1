@@ -52,6 +52,7 @@ class Gnuradio < Formula
   depends_on 'sphinx' if build.with? "docs"
   depends_on "wxpython"
   depends_on "wxmac"
+  depends_on "cppzmq"
 
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
