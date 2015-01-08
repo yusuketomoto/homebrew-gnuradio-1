@@ -53,6 +53,7 @@ class Gnuradio < Formula
   depends_on "wxpython"
   depends_on "wxmac"
   depends_on "cppzmq"
+  depends_on "ettus-uhd"
 
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
