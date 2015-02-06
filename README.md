@@ -33,3 +33,23 @@ The latest dev build can be attempted using the `--HEAD` argument, but this isn'
 This is a very dependency heavy recipe, so if you're starting from scratch, make sure have access to food because you'll probably need a snack before it's done.  I like nutella on toast, personally.
 
 Awwwww yisssss.
+
+## Note to self
+
+```sh
+brew install python
+brew tap yusuketomoto/homebrew-gnuradio-1
+
+pip install --upgrade setuptools
+pip install --upgrade pip
+pip install matplotlib -U
+
+brew install gnuradio --with-qt --with-docs --with-brewed-python
+
+pip install lxml
+pip install Cheetah
+
+pip install pyzmq
+
+sudo “/usr/local/Cellar/ettus-uhd/3.7.3/lib/uhd/utils/uhd_images_downloader.py”
+```
